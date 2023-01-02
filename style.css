@@ -36,6 +36,7 @@ body{
 
 .intro-container{
     display: flex;
+    flex: 1;
     justify-content: center;
     flex-wrap: wrap;
     background-color: #1F2937;
@@ -86,6 +87,78 @@ body{
     
 
 }
+
+
+.quote-container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7Eb;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 50px
+    
+}
+.quote{
+    flex-basis: 650px;
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.call-to-action-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.call-to-action-container-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 100px;
+    width: 650px;
+    
+
+}
+
+.call-to-action-container-container-button{
+    background: #3882F6; 
+    color: white; 
+    border-color: white;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.footer-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #1F2937;
+ height: 40px;
+
+
+}
+
+.footer-text{
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+
+
 
 
 
